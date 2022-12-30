@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://social-server-mahadibappi.vercel.app/assets/${image}`}
+        src={`https://social-server-five.vercel.app/assets/${image}`}
       />
     </Box>
   );
