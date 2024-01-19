@@ -46,9 +46,9 @@ const MyPostWidget = ({ picturePath }) => {
       formData.append("picturePath", image.name);
     }
 
-    const response = await fetch(`https://social-server-89ri.onrender.com/posts`, {
+    const response = await fetch(`http://localhost:5000/posts`, {
       method: "POST",
-      
+
       body: formData,
     });
     const posts = await response.json();
